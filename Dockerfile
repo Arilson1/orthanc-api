@@ -16,4 +16,8 @@ RUN chmod +x /start.sh
 # (porta interna 8043, ver orthanc.json)
 EXPOSE 8042
 
+# A imagem base fixa ENTRYPOINT ["Orthanc"], então sem isso o CMD abaixo
+# seria passado como argumento pro binário Orthanc (ele tentaria interpretar
+# "/start.sh" como se fosse o JSON de configuração).
+ENTRYPOINT []
 CMD ["/start.sh"]
