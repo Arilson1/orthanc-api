@@ -6,14 +6,8 @@
   "AuthenticationEnabled" : false,
   "DicomWeb" : {
     "Enable" : true,
-    "URL" : "/dicom-web/",
-    "EnableCors" : true,
-    "Headers" : {
-      "Access-Control-Allow-Origin" : "*",
-      "Access-Control-Allow-Headers" : "Origin, X-Requested-With, Content-Type, Accept, Authorization",
-      "Access-Control-Allow-Methods" : "GET, POST, PUT, DELETE, OPTIONS"
-    }
+    "Root" : "/dicom-web/"
   },
   "WebDav" : { "Enable" : false },
-  "HttpPort" : 8042
+  "HttpPort" : 8043
 }
