@@ -2,7 +2,7 @@
   "Name" : "Orthanc de Testes Nuvem",
   "StorageDirectory" : "/var/lib/orthanc/db",
   "IndexDirectory" : "/var/lib/orthanc/db",
-  "Plugins" : [ "/usr/share/orthanc/plugins" ],
+  "Plugins" : [ "/usr/local/share/orthanc/plugins" ],
   "AuthenticationEnabled" : false,
   "DicomWeb" : {
     "Enable" : true,
